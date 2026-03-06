@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Global styles to match PRD/AGENTS requirements (dark theme + smooth scrolling). */
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #0a0a0a;
+  color: #ffffff;
+}
